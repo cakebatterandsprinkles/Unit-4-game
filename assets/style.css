@@ -1,4 +1,30 @@
+body {
+    background-color: rgb(243, 242, 242);
+}
+
 img {
-    max-height:200px;
-    max-width: 200px;
+    max-height:150px;
+    max-width: 150px;
+}
+.header {
+    background-color: #F9557B;
+}
+
+.instructions {
+    background-color: #F9C35E;
+}
+
+.container {
+    max-width: 900px;
+    width:100%;
+}
+
+.display{
+    background-color: #579D9C;
+    box-sizing:border-box;
+} 
+
+.scoreKeeper {
+    background-color: #BB32A1;
+    box-sizing:border-box;
 }

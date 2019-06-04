@@ -12,12 +12,11 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>Crystal Collector</h1>
+    <div class="container justify-content-center">
+        <div class="jumbotron header mb-0 text-center text-white">
+            <h1 class="display-4">Crystal Collector</h1>
         </div>
-        <div class="instructions">
-            <p class="alert"></p>
+        <div class="instructions mt-2 mb-2 p-4">
             <p class="rules">You will be given a random number at the start of the game.</p>
             <p class="rules">There are four crystals below. By clicking on a crystal, you will add a specific amount of
                 points to your total score.</p>
@@ -26,25 +25,34 @@
             <p class="rules">The value of each crystal is hidden from you until you click on it.</p>
             <p class="rules">Each time when the game starts, the game will change the values of each crystal. Good luck!
             </p>
-            <div>
-                <p>Selected number is: <span class="computerDisplay"></span></p>
-            </div>
-            <div>
-                <p>Your total score is: <span class="totalScoreDisplay">0</span></p>
-            </div>
-
-            <div class="scoreKeeper">
-                <p>Wins: <span class="winsDisplay">0</span></p>
-                <p>Losses: <span class="lossesDisplay">0</span></p>
-            </div>
-
-            <div class="crystals">
-                <button type="button" class="btn btn-lg crystalButton" id="redCrystal"><img src="../Unit-4-game/assets/images/red-crystal.jpg" class="image-thumbnail" alt=""></button>
-                <button type="button" class="btn crystalButton" id="blueCrystal"><img src="../Unit-4-game/assets/images/blue-crystal.jpg" class="image-thumbnail" alt=""></button>
-                <button type="button" class="btn crystalButton" id="yellowCrystal"><img src="../Unit-4-game/assets/images/yellow-crystal.jpg" class="image-thumbnail" alt=""></button>
-                <button type="button" class="btn crystalButton" id="purpleCrystal"><img src="../Unit-4-game/assets/images/purple-crystal.jpg" class="image-thumbnail" alt=""></button>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="display p-4 mb-2 mr-sm-2 col-sm-5 text-white rounded-sm">
+                    <p>Selected number is: <span class="computerDisplay"></span></p>
+                    <p>Your total score is: <span class="totalScoreDisplay">0</span></p>
+                </div>
+                <div class="scoreKeeper p-4 mb-2 col-sm-5 text-white rounded-sm">
+                    <p>Wins: <span class="winsDisplay">0</span></p>
+                    <p>Losses: <span class="lossesDisplay">0</span></p>
+                </div>
             </div>
         </div>
+        <div class="container">
+            <div class="row crystals justify-content-center">
+                <button type="button" class="btn btn-lg crystalButton" id="redCrystal"><img
+                        src="../Unit-4-game/assets/images/red-crystal.jpg" class="image-thumbnail" alt=""></button>
+                <button type="button" class="btn crystalButton" id="blueCrystal"><img
+                        src="../Unit-4-game/assets/images/blue-crystal.jpg" class="image-thumbnail" alt=""></button>
+                <button type="button" class="btn crystalButton" id="yellowCrystal"><img
+                        src="../Unit-4-game/assets/images/yellow-crystal.jpg" class="image-thumbnail" alt=""></button>
+                <button type="button" class="btn crystalButton" id="purpleCrystal"><img
+                        src="../Unit-4-game/assets/images/purple-crystal.jpg" class="image-thumbnail" alt=""></button>
+            </div>
+        </div>
+    </div>
+
+
 
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
